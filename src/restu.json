@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Seafood",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_5.jpg",
+      "price": 59,
+      "category": "Fish",
+      "ppl": 78
+    },
+    {
+      "name": "Bella napoli",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_3.jpg",
+      "price": 68,
+      "category": "Pizza/Italian",
+      "ppl": 90
+    },
+    {
+      "name": "King Food",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_1.jpg",
+      "price": 78,
+      "category": "Fast Food",
+      "ppl": 56
+      
+    },
+    {
+      "name": "Catrine",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_2.jpg",
+      "price": 71,
+      "category": "International",
+      "ppl": 93
+    },
+    {
+      "name": "Dragon Tower",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_4.jpg",
+      "price": 55,
+      "category": "Chinese",
+      "ppl": 53
+    },
+    {
+      "name": "Alfredo",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_6.jpg",
+      "price": 47,
+      "category": "International",
+      "ppl": 85
+    },
+    {
+      "name": "Madlene Bar",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_7.jpg",
+      "price": 67,
+      "category": "International",
+      "ppl": 78
+    },
+    {
+      "name": "Spago Bistrot",
+      "img": "https://www.ansonika.com/citytours/img/restaurant_box_8.jpg",
+      "price": 44,
+      "category": "International",
+      "ppl": 58
+    }
+  ]

@@ -38,3 +38,36 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .img-hover-zoom {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.img-hover-zoom img {
+    transition: transform .3s ease;
+    border-radius: 20px;
+
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+
+}
+.img-hover-zoom .text {
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  left: 25px;
+  bottom: 0px;
+  margin: 0px auto;
+  text-align: start;
+  
+  font-family: Quicksand;
+  color: #fff;
+  width: 100%;
+
+}

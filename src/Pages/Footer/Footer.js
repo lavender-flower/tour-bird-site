@@ -11,8 +11,8 @@ const Footer = () => {
   <div className="row p-5">
     <div className="col-6 text-start">
     
-    <h4> <img src='images/logo-removebg-preview.png' style={{width:"10%"}}></img> Tour Bird</h4>
-    <small>Health is not valued till sickness comes. Rest when you're weary. Refresh and renew yourself, your body, your mind, your spirit.</small>
+    <h4> <img src='images/logo-removebg-preview.png' style={{width:"15%"}}></img> Tour Bird</h4>
+    <small>Travel when you're weary. Refresh and renew yourself, your body, your mind, your spirit.</small>
     </div>
     <div className="col text-start ps-5 ">
      <p><FontAwesomeIcon icon={faLocationDot} />  Dhaka, Bangladesh</p>

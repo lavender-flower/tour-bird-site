@@ -4,6 +4,7 @@ import CaroselPart from './CaroselPart/CaroselPart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandshakeAlt, faPersonWalkingLuggage, faTents } from '@fortawesome/free-solid-svg-icons';
 import Header from '../Header/Header';
+import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
@@ -11,35 +12,45 @@ const Home = () => {
   <CaroselPart></CaroselPart>
   <div class="container py-5">
   <div class="row">
+   
     <div class="col img-hover-zoom">
-    <img src="images/offers.jpg" class="img-fluid" style={{width:'100%'}} alt="..."/>
+   <Link to='/offers'>
+   <img src="images/offers.jpg" class="img-fluid" style={{width:'100%'}} alt="..."/>
     <div class="text"><h4>Special Offers</h4>
     <small>1150 Location</small></div>
+   </Link>
     
     </div>
+    
     <div class="col">
      
     
   <div className='pb-3 img-hover-zoom'>
-     <img src="images/restu.jpg" class="img-fluid" style={{width:'100%'}} alt="..."/>
-     <div class="text"><h4>Restaurant</h4>
+   <Link to='/restaurants'>
+   <img src="images/restu.jpg" class="img-fluid" style={{width:'100%'}} alt="..."/>
+     <div class="text"><h4>Restaurants</h4>
      <small>1150 Location</small>
     </div>
+   </Link>
     
     
      </div>
      <div class="row">
     <div class="col img-hover-zoom">
-    <img src="images/hotels.jpg" class="w-100" style={{width:'100%'}} alt="..."/>
+   <Link to='/hotels'>
+   <img src="images/hotels.jpg" class="w-100" style={{width:'100%'}} alt="..."/>
     <div class="text"><h4>Hotels</h4>
     <small>1150 Location</small>
     </div>
+   </Link>
     </div>
     <div class="col img-hover-zoom">
-    <img src="images/tours.jpg" class="w-100" style={{width:'100%'}} alt="..."/>
+   <Link to='/tours'>
+   <img src="images/tours.jpg" class="w-100" style={{width:'100%'}} alt="..."/>
     <div class="text"><h4>Tours</h4>
     <small>1150 Location</small>
     </div>
+   </Link>
     </div>
     </div>
  
@@ -107,7 +118,8 @@ const Home = () => {
     </div>
   
   </div>
-  <div className='py-3'><button type="button" class="btn rounded-pill btn-warning">View all Tours</button></div>
+  <div className='py-3'>
+   <Link to='/tours'> <button type="button" class="btn rounded-pill btn-warning">View all Tours</button></Link></div>
 </div>
 
 </div>

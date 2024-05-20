@@ -1,0 +1,27 @@
+const hotel=[
+    {
+        name:'PARK HYATT HOTEL',
+        img:'https://www.ansonika.com/citytours/img/hotel_1.jpg',
+        people:'8',
+        price:'65'
+    },
+    {
+        name:'MARIOTT HOTEL',
+        img:'https://www.ansonika.com/citytours/img/hotel_2.jpg',
+        people:'9',
+        price:'67'
+    },
+    {
+        name:'LUMIERE HOTEL',
+        img:'https://www.ansonika.com/citytours/img/hotel_4.jpg',
+        people:'6',
+        price:'48'
+    },
+    {
+        name:'CONCORDE HOTEL',
+        img:'https://www.ansonika.com/citytours/img/hotel_5.jpg',
+        people:'5',
+        price:'59'
+    }
+ 
+]
