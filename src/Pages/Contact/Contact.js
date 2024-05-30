@@ -9,53 +9,53 @@ const Contact = () => {
                   <div className="container-overlay">
   <img src="images/contact.jpg" alt="Avatar" className="image-overlay"/>
   <div className="overlay">
-    <div className="text-overlay"><h1 className='display-2'>Get In Touch </h1><br></br><p>
+    <div className="text-overlay"><h1 style={{fontSize:'4vw'}} className='display-2'>Get In Touch </h1><br></br><p style={{fontSize:'1.5vw'}}>
     Life is about the adventures you take and the memories you make. Take a few minutes of every day to fantasize about ...
 </p>
 
-<button type="button" className="rounded-pill btn btn-warning">Read More</button>
+<button type="button" style={{fontSize:'1.5vw'}} className="rounded-pill btn btn-sm btn-warning">Read More</button>
 
 </div>
   </div>
 </div>
 
-<div class="container py-5">
-  <div class="row ">
+<div className="container py-5">
+  <div className="row ">
    
-    <div class="col-8 pe-5 text-start">
-    <h3><FontAwesomeIcon className='text-warning' icon={faPenToSquare} /> Fill the form below</h3>
+    <div className="col-8  text-start" style={{fontSize:'1.5vw'}}>
+    <h3 style={{fontSize:'2vw'}}><FontAwesomeIcon className='text-warning' icon={faPenToSquare} /> Fill the form below</h3>
     <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  <div className="mb-3">
+    <label for="exampleInputEmail1" className="form-label">Email address</label>
+    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <div id="emailHelp" className="form-text" style={{fontSize:'1vw'}}>We'll never share your email with anyone else.</div>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1"/>
+  <div className="mb-3">
+    <label for="exampleInputPassword1" className="form-label">Password</label>
+    <input type="password" className="form-control" id="exampleInputPassword1"/>
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  <div className="mb-3 form-check">
+    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+    <label className="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Write Comments</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <div className="mb-3">
+  <label for="exampleFormControlTextarea1" className="form-label">Write Comments</label>
+  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
-<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label"><small>Human Verification</small></label>
-    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Are you human?5+2='/>
+<div className="mb-3">
+    <label for="exampleInputEmail1" className="form-label">Human Verification</label>
+    <input type="number" style={{fontSize:'1vw'}} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Are you human?5+2='/>
     
   </div>
-  <button type="submit" class="btn btn-warning">Submit</button>
+  <button style={{fontSize:'1vw'}} type="submit" className="btn btn-sm btn-warning">Submit</button>
 </form>
     </div>
-    <div class="col-4">
+    <div className="col-4 " style={{fontSize:'1.5vw'}}>
      <div className='border p-3 text-start mb-4 rounded'>
-     <h3>Address <FontAwesomeIcon className='text-warning' icon={faLocationDot} /></h3>
+     <h3 style={{fontSize:'2vw'}}>Address <FontAwesomeIcon className='text-warning' icon={faLocationDot} /></h3>
      <p>Dhaka Bangladesh</p>
      
-        <h3>Help Center <FontAwesomeIcon className='text-warning' icon={faQuestion} /></h3>
+        <h3 style={{fontSize:'2vw'}}>Help Center <FontAwesomeIcon className='text-warning' icon={faQuestion} /></h3>
         <p>
         Life is about the adventures you take and the memories you make. Take a few minutes of every day to fantasize about.<br></br><br></br>
 
@@ -64,8 +64,8 @@ info@domain.com</p>
      </div>
      <div className='border p-3 rounded'>
      <FontAwesomeIcon className='fs-1 text-warning' icon={faHeadset} />
-     <h5>Need Help?</h5>
-     <h3 className='text-warning'>+755480655</h3>
+     <h5 style={{fontSize:'2vw'}}>Need Help?</h5>
+     <h3 className='text-warning' style={{fontSize:'2vw'}}>+755480655</h3>
      <small>Monday to Friday 9.00am - 7.30pm</small>
 
      </div>

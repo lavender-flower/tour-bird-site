@@ -9,44 +9,44 @@ const CaroselPart = () => {
             <Carousel fade>
            
       <Carousel.Item>
-      <img src="images/cover1.jpg" class="d-block w-100" alt="..."/>
+      <img src="images/cover1.jpg"  className="d-block w-100" alt="..." style={{filter: "brightness(65%)"}}/>
         <Carousel.Caption className='text-start fs-1'>
-          <h3 className='display-3'  >Marina Bay Sands Singapore</h3>
-          <p>
+          <h3 className='display-3' style={{fontSize:'4vw'}} >Marina Bay Sands Singapore</h3>
+          <p style={{fontSize:'1.5vw'}}>
           Discover hidden wonders on the trips created by Tour Bird experts.
           </p>
-          <button type="button" class="btn rounded-pill btn-warning">Read More</button>
+          <button type="button" className="btn rounded-pill btn-warning" style={{fontSize:'1vw'}}>Read More</button>
         </Carousel.Caption>
       </Carousel.Item>
       
       <Carousel.Item>
-      <img src="images/cover2.jpg" class="d-block w-100" alt="..."/>
+      <img src="images/cover2.jpg" className="d-block w-100" alt="..." style={{filter: "brightness(50%)"}}/>
         <Carousel.Caption  className='text-start fs-1'>
-          <h3 className='display-3'>Going Inside The Louvre Museum</h3>
-          <p>
+          <h3 className='display-3' style={{fontSize:'4vw'}} >Going Inside The Louvre Museum</h3>
+          <p style={{fontSize:'1.5vw'}}>
           Discover hidden wonders on the trips created by Tour Bird experts.
           </p>
-          <button type="button" class="btn rounded-pill btn-warning">Read More</button>
+          <button type="button" className="btn rounded-pill btn-warning" style={{fontSize:'1vw'}}>Read More</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="images/cover3.jpg" class="d-block w-100" alt="..."/>
+      <img src="images/cover3.jpg" className="d-block w-100" alt="..." style={{filter: "brightness(65%)"}}/>
         <Carousel.Caption className='text-start fs-1'>
-          <h3 className='display-1'>Tokyo City Lights</h3>
-          <p>
+          <h3 className='display-1' style={{fontSize:'4vw'}} >Tokyo City Lights</h3>
+          <p style={{fontSize:'1.5vw'}}>
           Discover hidden wonders on the trips created by Tour Bird experts.
           </p>
-          <button type="button" class="btn rounded-pill btn-warning">Read More</button>
+          <button type="button" className="btn rounded-pill btn-warning" style={{fontSize:'1vw'}}>Read More</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src="images/cover4.jpg"  class="d-block w-100" alt="..."/>
+      <img src="images/cover4.jpg"  className="d-block w-100" alt="..." style={{filter: "brightness(65%)"}}/>
         <Carousel.Caption  className='text-end fs-1'>
-          <h3 className='display-3'>Abbaye du Mont-Saint-Michel</h3>
-          <p>
+          <h3 className='display-3' style={{fontSize:'4vw'}} >Abbaye du Mont-Saint-Michel</h3>
+          <p style={{fontSize:'1.5vw'}}>
             Discover hidden wonders on the trips created by Tour Bird experts.
           </p>
-          <button type="button" class="btn rounded-pill btn-warning">Read More</button>
+          <button type="button" className="btn rounded-pill btn-warning" style={{fontSize:'1vw'}}>Read More</button>
         </Carousel.Caption>
       </Carousel.Item>
      

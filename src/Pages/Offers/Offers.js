@@ -21,8 +21,8 @@ const Offers = () => {
   </div>
 </div>
 
-<h1 className='pt-5'>Special <span className='text-warning'>Tours</span></h1>
-<p>The world is a book and those who do not travel read only one page.</p>
+<h1 style={{fontSize:'4vw'}} className='pt-5'>Special <span className='text-warning'>Tours</span></h1>
+<p style={{fontSize:'1.5vw'}}>The world is a book and those who do not travel read only one page.</p>
 <div className="row row-cols-1 row-cols-md-4 g-4 p-5">
  {
   turs.map(tur=>{
@@ -44,24 +44,24 @@ const Offers = () => {
  }
  
 </div> 
-<h1>Special <span className='text-warning'>Hotel</span> Offer</h1>
-<p>The world is a book and those who do not travel read only one page.</p>
+<h1 style={{fontSize:'4vw'}}>Special <span className='text-warning'>Hotel</span> Offer</h1>
+<p style={{fontSize:'1.5vw'}}>The world is a book and those who do not travel read only one page.</p>
 
-<div className="row g-0 row-cols-1 row-cols-md-2 g-4 p-5">
+<div className="row g-0 row-cols-1 row-cols-md-2 g-4 p-5 ">
  {
   hotels.map(hotel=>{
     return(
-      <div className="col d-flex text-start border">
+      <div className="col d-flex text-start border ">
       <div class="col-md-4 img-hover-zoom">
-      <img src={hotel.img} class="img-fluid rounded-start" alt="..."/>
+      <img src={hotel.img} class="img-fluid rounded-start pt-2" alt="..."/>
     </div>
-    <div class="col-md-8 px-5">
+    <div class="col-md-8 px-5 pt-2">
       <div class="card-body">
-      <div className='d-flex justify-content-between'><h5 className="card-title">{hotel.name}</h5>
-         <h6> <span className='text-warning fs-5'>{hotel.price}00tk</span> <small style={{textDecoration:'line-through'}}>10000tk</small></h6> </div>
+      <div className='d-flex justify-content-between' ><h6 style={{fontSize:'1.5vw'}} className="card-title">{hotel.name}</h6>
+         <h6 style={{fontSize:'1.8vw'}} > <span className='text-warning' style={{fontSize:'1.8vw'}} >{hotel.price}00tk</span> <small style={{textDecoration:'line-through'}}>10000tk</small></h6> </div>
         
-        <div><p ><span className='text-warning'><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></span><FontAwesomeIcon icon={faStar}/></p>
-          <small class="text-muted">booked by {hotel.people}00 people</small></div>
+        <div><p ><span className='text-warning' style={{fontSize:'1vw'}} ><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></span>< FontAwesomeIcon icon={faStar} style={{fontSize:'1vw'}} /></p>
+          <small class="text-muted" style={{fontSize:'1vw'}} >booked by {hotel.people}00 people</small></div>
         
       </div>
     </div>
@@ -74,8 +74,8 @@ const Offers = () => {
 
 
 
-<h1 className='pt-5'>Transfer <span className='text-warning'>Ofers</span></h1>
-<p>The world is a book and those who do not travel read only one page.</p>
+<h1 style={{fontSize:'4vw'}} className='pt-5'>Transfer <span className='text-warning'>Ofers</span></h1>
+<p style={{fontSize:'1.5vw'}}>The world is a book and those who do not travel read only one page.</p>
 <div className="row row-cols-1 row-cols-md-4 g-4 p-5">
  
  {
