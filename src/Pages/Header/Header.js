@@ -24,10 +24,11 @@ const Header = () => {
         
              
       <Navbar className='p-2' fixed="top" collapseOnSelect expand="lg" style={{background:"rgba(0, 0, 0, 0.3)"}} data-bs-theme="light">
+        
+      <Navbar.Brand className='text-light cover-name'  href="#home">  <img src="images\logo-removebg-preview.png" alt="" width="50px"/> Tour Bird</Navbar.Brand>
          <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
         <Navbar.Collapse id="responsive-navbar-nav">
            
-          <Navbar.Brand className='text-light cover-name'  href="#home">  <img src="images\logo-removebg-preview.png" alt="" width="50px"/> Tour Bird</Navbar.Brand>
         
 
           <Nav className="me-auto">
